@@ -30,6 +30,7 @@
     label.backgroundColor = [UIColor cyanColor];
     label.numberOfLines = 0;
     label.frame = CGRectMake(20, 100, 320, 50);
+    label.font = [UIFont systemFontOfSize:13];
     [self.view addSubview:label];
 }
 
